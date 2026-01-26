@@ -1,0 +1,54 @@
+body{
+    height: 2000px;
+}
+
+.container{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 0 auto;
+}
+
+.box-1{
+    position: sticky;
+    top: 10px;
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: black;
+}
+.box-2{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.box-3{
+    position: static;
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: black;
+}
+.box-4{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.box-5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(193, 82, 218);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

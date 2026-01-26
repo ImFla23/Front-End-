@@ -1,0 +1,91 @@
+body{
+   height: 2000px;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 20;
+}
+nav{
+    display: flex;
+    gap: 20rem;
+}
+
+a{
+    font-size: 18px;
+
+    color: black;
+    text-decoration: none;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+a:hover{
+   scale: 110%;
+    color: gray;
+    
+}
+
+.container-titolo{
+    display: flex;
+    margin: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3{
+   font-weight: 400;
+}
+
+.container-placeholder{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 5rem;
+    margin: 2rem;
+    height: auto;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.plc1{
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgb(152, 193, 179);
+}
+.plc2{
+      width: 250px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgb(171, 174, 223);
+}
+.plc3{
+      width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgb(233, 202, 183);
+}
+.plc4{
+       width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgb(224, 180, 226);
+}

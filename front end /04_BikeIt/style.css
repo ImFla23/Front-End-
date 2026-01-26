@@ -1,0 +1,513 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainDiv{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.separator{
+    background-color: rgb(213, 213, 213);
+    height: 1.5px;
+    margin: 50px 0px;
+
+}
+
+/* sezione Hero */
+
+.heroImage{
+    display: none;
+
+}
+
+.heroTitle{
+    display: flex;
+    flex-direction: column;
+}
+
+/* sezione cos'è */
+.whatsBikeBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordionBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 15px ;
+    flex: 1;
+}
+.accordion1,.accordion2,.accordion3,.accordion4,.accordion5{
+    width: 80vw;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.accordion1{
+    background-color: rgb(161, 234, 209);
+}
+.accordion2{
+    background-color: red;
+}
+.accordion3{
+    background-color: palegoldenrod;
+}
+.accordion4{
+    background-color: rgb(161, 58, 161);
+}
+.accordion5{
+    background-color: palevioletred;
+}
+
+/* come funziona? */
+
+.howWorksBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.titleHowWorks{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.flexRowImages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+ 
+}
+
+.firstHow, .secondHow, .thirdHow, .fourthHow{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstWritesBox, .secondWritesBox, .thirdWritesBox, .fuorthWritesBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+
+.TitleoHow{
+    font-weight: 600;
+    margin: 0;
+}
+
+.firstImage, .secondImage, .thirdImage, .fourthImage{
+    width: 67px;
+    height: 67px;
+    margin-top: 16px;
+    object-fit: cover;
+}
+
+.secondImage{
+    background-color: rgb(105, 94, 184);
+}
+.thirdImage{
+    background-color: rgb(155, 97, 172);
+}
+.fourthImage{
+    background-color: rgb(158, 86, 115);
+}
+
+/* loghi */
+
+.logoBox{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo1, .logo2, .logo3, .logo4, .logo5{
+    width: 112px;
+    height: 56px;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease;
+    user-select: none;
+}
+
+
+.logo1{
+    background-color: rgb(167, 146, 119);
+}
+.logo2{
+    background-color: rgb(166, 62, 62);
+}
+.logo3{
+    background-color: coral;
+}
+.logo4{
+    background-color: rgb(96, 128, 90);
+}
+
+.logo5{
+    background-color: rgb(115, 115, 88);
+}
+
+
+.logo1:hover, .logo2:hover, .logo3:hover, .logo4:hover, .logo5:hover{
+    transform: scale(1.1);
+}
+
+
+/* recensioni */
+
+.reviewsBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.stars{
+    width: 96px;
+    height: 16px;
+    object-fit: cover;
+}
+
+.review1, .review2, .review3, .review4, .review5, .review6, .review7 {
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 20px;
+    padding: 10px;
+    width: 269px;
+    height: 353px;
+    display: flex;
+    justify-items: start;
+    align-items: start;
+    flex-direction: column;
+    color: rgb(68, 68, 68);
+    font-weight: 500;
+    position: relative;
+}
+
+.reviewText{
+    margin-top: 20px;
+}
+
+.reviewSign{
+    position: absolute;
+    bottom: 10px;
+}
+
+/* pagina delle card */
+
+.cardBox{
+    display: flex;
+   
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    border: 1px rgb(160, 160, 160) solid;
+    border-radius: 25px;
+}
+
+/* box delle imamgini */
+
+.imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img1{
+    background-color: rgb(156, 255, 255);
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+}
+
+.columnDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.img2{
+    background-color: rgb(156, 174, 255);
+    width: 58px;
+    height: 58px;
+    border-radius: 15px;
+}
+
+.img3{
+    background-color: coral;
+    width: 58px;
+    height: 58px;
+    border-radius: 15px;
+}
+
+
+/* box dei contenuti */
+
+.contentBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+    flex: 1;
+}
+
+.separatorInBox{
+    background-color: rgb(213, 213, 213);
+    height: 1.5px;
+    margin: 10px 0px;
+}
+
+
+/* box delle scritte */
+
+.titleBox{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.ContentTitle{
+    margin: 0;
+    font-weight: 550;
+}
+
+.ContentParagr{
+    margin: 0;
+    font-weight: 400;
+    color: rgb(101, 100, 100);
+}
+
+/* box dei contenuti */
+
+.buttonsBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconBox{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex: 1;
+    gap: 25px;
+}
+
+.RoadBox, .eBikeBox, .trekkingBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Icon{
+    background-color: rgb(193, 255, 193);
+    width: 24px;
+    height: 24px;
+    border-radius: 5px;
+}
+.IconP{
+    margin: 0;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.doneBottonBox{
+    margin-left: auto;
+}
+
+.searchHotel{
+    background-color: rgb(204, 235, 251);
+    border: none;
+    padding: 5px;
+    color: rgb(114, 114, 246);
+    font-size: 15px;
+    font-weight: 400;
+    width: 150px;
+    border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+
+    /* hero section */
+.heroSection{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+/* titolo hero */
+
+.heroTitle{
+    display: flex;
+    align-items: center;
+    justify-items: start;
+    flex-direction: column;
+ 
+}
+
+.TitleH{
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+}
+.Heroparagr{
+    font-size: 30px;
+    font-weight: 300;
+    color: gray;
+}
+
+/* immagine */
+
+.heroImage{
+    display: block;
+}
+.immaginiBox{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.heroImage{
+    width: 40rem ;
+}
+
+/* sezione cos'è */
+.whatsBikeBox{
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    
+}
+
+/* scritte cos'è */
+
+.titleWhatsBox{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.titleWhats{
+    font-weight: 500;
+    font-size: 45px;
+    margin: 0;
+}
+
+a{
+    color: rgb(140, 209, 38);
+}
+
+.whatsParagraf{
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(49, 49, 49);
+}
+
+/* accordionBox */
+
+.accordionBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 15px ;
+    flex: 1;
+}
+
+.accordion1,.accordion2,.accordion3,.accordion4,.accordion5{
+    width: 500px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+
+    /* come funziona? */
+.howWorksBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.titleHowWorks{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.flexRowImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 60px;
+}
+
+.firstHow, .secondHow, .thirdHow, .fourthHow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.TitleoHow{
+    font-weight: 600;
+    margin: 0;
+}
+
+.firstImage, .secondImage, .thirdImage, .fourthImage{
+    width: 120px;
+    height: 120px;
+    margin-top: 16px;
+    object-fit: cover;
+}
+}

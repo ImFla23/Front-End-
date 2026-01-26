@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+.contenitore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-top: 100px;
+}
+
+.gridBox{
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows:  repeat(2, 1fr);
+    height: 60vh;
+    width: 90%;
+    border: solid 1px rgb(192, 192, 192);
+    border-radius: 30px;
+    row-gap: 20px;
+    column-gap: 10px;
+    padding: 20px;
+}
+
+.div1{
+    border-radius: 20px;
+    background-color: rebeccapurple;
+    grid-row: 2 span;
+}
+.div2{
+    border-radius: 20px;
+    background-color: rgb(50, 109, 122);
+}
+.div3{
+    border-radius: 20px;
+    background-color: rgb(122, 153, 51);
+}
+.div4{
+    border-radius: 20px;
+    background-color: rgb(177, 116, 98);
+}
+.div5{
+    border-radius: 20px;
+    background-color: rgb(226, 196, 124);
+}

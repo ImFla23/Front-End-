@@ -1,0 +1,54 @@
+.container-of-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 80vh;
+    gap: 20px;
+}
+
+.first-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.color1{
+    background-color: red;
+}
+
+.color2{
+    background-color: blue;
+}
+
+.color3{
+    background-color: palevioletred;
+}
+
+@media (min-width: 768px ) {
+    .color1{
+        background-color: greenyellow;
+    }
+
+    .color2{
+        background-color: blanchedalmond;
+    }
+    .color3{
+    background-color: magenta;
+}
+}
+
+@media(min-width: 1024px){
+    .color1{
+        background-color: lightpink;
+    }
+    .color2{
+        background-color: tomato;
+    }
+    .color3{
+    background-color: lemonchiffon;
+}
+#superColor{
+    background-color: darkorchid !important;
+}
+}

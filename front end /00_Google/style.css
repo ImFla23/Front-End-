@@ -1,0 +1,55 @@
+
+.container{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-btn{
+   
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ricerca {
+    width: 90%;
+    padding: 0.5rem;
+    border-width: 1px;
+    border-radius: 10rem;
+    
+}
+
+.btn{
+    text-transform: capitalize;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    padding: 8px;
+    transition-property: all;
+    transition-duration: 150ms;
+    cursor: pointer;
+}
+
+.btn:active{
+    scale: 90%;
+}
+
+/* titolo */
+
+.h1-Container{
+    display: flex; 
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titoloRosso{
+    color: red;
+}
