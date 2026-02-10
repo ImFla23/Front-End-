@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOM Interaction</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <h1 id="main-title">Aggiungi Lista</h1>
+      </header>
+      <div class="btn-container">
+        <button class="add-button" onclick="addItemList()">
+          Aggiungi Elemento
+        </button>
+        <button class="add-button" onclick="removeItemList()">
+          Rimuovi Elemento
+        </button>
+      </div>
+      <ul id="list">
+        <li class="list-item">Item 1</li>
+        <li class="list-item">Item 2</li>
+        <li class="list-item">Item 3</li>
+        <li class="list-item">Item 4</li>
+      </ul>
+
+      <div class="color-div-container">
+        <div class="change-color violet" onclick="changeColor()">
+            Cliccami!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
