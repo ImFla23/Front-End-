@@ -1,0 +1,88 @@
+.box-pagina{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h3, p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.card-sfondo{
+    background-color: #25466B;
+    border-radius: 20px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.118);
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    position: relative;
+}
+
+.box-cuore{
+    position: absolute;
+    background-color: rgb(115, 115, 115);
+    border-radius: 20px;
+    top: 25px;
+    right: 25px;
+    padding: 5px 5px 0 5px;
+}
+
+.box-flex-flag{
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    bottom: 32%;
+    left: 25px;
+}
+
+.box-cambio{
+    color: white;
+    background-color: rgb(115, 115, 115);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.box-promo{
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.immagine-articolo{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.box-testo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+
+.descrizione-articolo, .mediano{
+    margin-bottom: 20px;
+    color: #e1e1e1;
+    font-size: smaller;
+    font-weight: 400;
+}
+
+.prezzo-tagliato{
+    text-decoration: line-through;
+    margin-right: 2px;
+}

@@ -1,0 +1,141 @@
+p,h2 {
+    margin: 0;
+}
+
+.descrizone, .descrizione-tempo, .prezzo{
+    font-size: 14px;
+    margin: 0;
+}
+
+.prezzo{
+    font-weight: bold;
+}
+
+body{
+    margin: 0;
+}
+
+.main-box{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: scroll;
+}
+
+.menu-adestra, .ricerca-desktop, .logo{
+    display: none;
+}
+
+header{
+    display: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 16vh;
+}
+
+
+.barra-ricerca{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.119);
+    width: 80vw;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filtri-mobile{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    color: rgba(62, 62, 62, 0.845);
+    font-size: 15px;
+
+}
+
+.alloggi {
+    border-bottom: 2px solid black;
+}
+
+.categoria-immagini-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 10px 10px;
+}
+
+.box-scrollabile{
+    display: flex;
+    overflow-x: auto; 
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.card{
+    flex-shrink: 0; 
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.imamgine{
+    width: 100%;
+    height: 150px;
+    background-color: #bee36e; 
+}
+
+@media (min-width: 768px) {
+    .menu-adestra, .ricerca-desktop, .logo{
+        display: flex;
+    }
+
+    .barra-ricerca, .filtri-mobile{
+        display: none;
+    }
+
+    .logo{
+        color: #fd466b;
+        font-weight: 800;
+        font-size: xx-large;
+    }
+
+    .ricerca-desktop{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.119);
+        width: 50vw;
+        border: 1px solid rgb(190, 190, 190);
+        padding: 20px;
+        border-radius: 30px;
+        text-align: center;
+        cursor: pointer;
+       
+    }
+
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .menu-adestra{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
